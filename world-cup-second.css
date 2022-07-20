@@ -55,6 +55,10 @@ body {
     margin: 0;
 }
 
+.header-button:hover {
+    width: 130px;
+}
+
 #icon {
     padding-left: 10px;
 }
@@ -109,8 +113,13 @@ body {
     color: #FFFFFF;
 }
 
+.anchor-tag {
+    text-decoration: none;
+}
+
 .menu-text {
     font-size: 20px;
+    color: #000000;
 }
 
 .all-group {
@@ -237,7 +246,7 @@ body {
 .horizontal-line {
     width: 90%;
     text-align: center;
-    color: gray;
+    color: rgb(88, 88, 88);
 
 }
 
@@ -245,6 +254,18 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-socil-media {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 
 /* media resposible  */
 
@@ -270,14 +291,20 @@ body {
 
     .mother-div {
         background-color: #ffffff;
+        padding-left: 100px;
+
     }
 
     .blogses {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 520px);
     }
 
     .view-all {
         display: none;
+    }
+
+    .footer-class {
+        width: 685px;
     }
 
     .footer-div {
@@ -291,6 +318,15 @@ body {
 
 /* tablet degine */
 @media only screen and (min-width: 768px) and (max-width:1023px) {
+
+    .header-page {
+        width: 900px;
+    }
+
+    .header-button-icon {
+        margin-bottom: 30px;
+    }
+
 
     .second-pera {
         flex-direction: column
@@ -309,7 +345,11 @@ body {
 
 
     .blogses {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 420px);
+    }
+
+    .footer-class {
+        width: 950px;
     }
 
 }
