@@ -415,11 +415,12 @@ body {
     .footer-class {
         width: 950px;
     }
+}
 
-    /* pc respublic */
-    @media only screen and (min-width: 1024px) {
-        .view-all {
-            display: none;
+/* pc respublic */
+@media only screen and (min-width: 1024px) {
+    .view-all {
+        display: none;
 
-        }
     }
+}
