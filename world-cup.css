@@ -13,7 +13,7 @@ body {
 .header-page {
     display: flex;
     width: 1200px;
-    background-color: #181717;
+    background-color: #292626;
     border-radius: 30px;
 }
 
@@ -54,6 +54,7 @@ body {
     color: #FFFFFF;
     margin: 0;
     width: 120px;
+    transition: 0.8s;
 }
 
 .header-button:hover {
@@ -62,6 +63,7 @@ body {
 
 #icon {
     padding-left: 10px;
+    transition: 0.8s;
 }
 
 .header-picture img {
@@ -361,7 +363,7 @@ body {
     }
 
     .footer-class {
-        width: 685px;
+        width: 690px;
     }
 
     .footer-div {
